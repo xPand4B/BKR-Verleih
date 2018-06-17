@@ -1,0 +1,28 @@
+<!-- Login -->
+<div id="modalLogin" class="modal">
+	<form action="./scripts/php/login/login.php" class="modal-content" method="POST" data-parsley-validate>
+        <div class="form-input">
+            <label for="email"><b>E-Mail</b></label>
+    		<input type="email" name="email" placeholder="E-Mail" required>
+        </div>
+        <div class="form-input">
+            <label for="password"><b>Passwort</b></label>
+    		<input type="password" name="password" maxlength="128" placeholder="Passwort" minlength="8" required>
+        </div>
+
+        <div class="formBtn">
+            <button type="submit" name="submit" class="formSubmit formBtn">Login</button>
+    		<a type="button" onclick="document.getElementById('modalLogin').style.display='none'" class="formCancel formBtn">Abbrechen</a>
+        </div>
+	</form>
+</div>
+<script src="scripts/javascript/parsley.min.js"></script>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('modalLogin');
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) $("#modalLogin").fadeOut(400);
+    }
+</script>
