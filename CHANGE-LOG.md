@@ -40,19 +40,19 @@
 
 ## [31.05.2018] ##
 * Added delete scripts
-* Customer
-    
-    ` app/partials/kunden/show.all.php`
-    
-    ` scripts/php/delete/delete.customer.php`
+    * Customer
+        
+        ` app/partials/kunden/show.all.php`
+        
+        ` scripts/php/delete/delete.customer.php`
 
-* Movies (depending on serveral things, e.x. movie still in use?)
-    
-    ` app/includes/filme.php`
-    
-    ` app/partials/filme/delete.php`
-    
-    ` scripts/php/delete/delete.movie.php`
+    * Movies (depending on serveral things, e.x. movie still in use?)
+        
+        ` app/includes/filme.php`
+        
+        ` app/partials/filme/delete.php`
+        
+        ` scripts/php/delete/delete.movie.php`
 
 ## [30.05.2018] ##
 * Created config file
