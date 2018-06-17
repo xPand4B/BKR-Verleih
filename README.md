@@ -4,7 +4,7 @@
 ## HOW TO START ##
     0. Read 'CHANGE-LOG' if you already have a version of this project
     1. Check your Configuration Settings ( ./config.php )
-    2. Drag this Project inside your webserver (hosted OR local)
+    2. Drag this Project inside your webserver directoryy (hosted OR local)
 	3. Open Project inside your browser
 	4. Select your database-type
 	5. Create your first Employee/Admin User
