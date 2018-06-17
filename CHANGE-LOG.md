@@ -78,6 +78,7 @@
     ` /app/init.php `
 
     ` /app/autoload.php `
+
 * Added autoload to scripts, in order to access environment variables
 
     ` /scripts/php/add/add.kunden.php `
@@ -128,15 +129,15 @@
 
 * Added 'frist' to DB table 'typ'
 
-* Added Link from 'Verleih' to 'Kunden' (Onclick Row)
+* Added Link from __'Verleih'__ to __'Kunden'__ __(Onclick Row)__
 
-* Created colored indicator for 'rueckgabedatum' based on 'frist' (DB >> typ >> frist)
+* Created colored indicator for __'rueckgabedatum'__ based on __'frist'__ __(DB >> typ >> frist)__
 
     ` /app/includes/verleih.php `
 
     ` /app/includes/kunden.php `
 
-* Added DB table 'versions' to control DB version
+* Added DB table __'versions'__ to control DB version
 
     ` /app/config/version.php `
 
@@ -145,7 +146,7 @@
     ` /app/core/update.database.php `
 
 ## [23.05.2018] ##
-* Added 'Verleih Hinzufügen'
+* Added __'Verleih Hinzufügen'__
 
     ` /app/includes/verleih.php `
 
@@ -164,7 +165,7 @@
 
     ` /READ-ME.txt `
 
-* Added Table array inside Database Class (better access to tables)
+* Added Table array inside Database Class __(better access to tables)__
 
     ` /scripts/php/Database.php `
 
@@ -186,7 +187,7 @@
 
     ` /scripts/php/login/login.php `
 
-* Created 'Latest Movies' View on Homepage
+* Created __'Latest Movies'__ View on Homepage
 
     ` /app/includes/home.php `
 
@@ -225,7 +226,7 @@
 
     ` /scripts/php/Topnav.php `
 
-* Improved 'backLink' for php scripts (function BackLink)
+* Improved __'backLink'__ for php scripts __(function BackLink)__
 
     ` /scripts/php/login/login.php `
 
