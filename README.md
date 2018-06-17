@@ -4,13 +4,13 @@ __©2018 - Made by Eric Heinzl__
 ## How To Start ##
 0.)  Read [__'CHANGE-LOG'__](https://github.com/xPand4B/BKR-Verleih/blob/master/CHANGE-LOG.md) if you already have a version of this project
 
-1.)  Check your Configuration Settings inside `./config.php`
+1.)  Check your Configuration Settings inside ` config.php ` file.
 
-2.)  Drag this Project inside your webserver directory (hosted __OR__ local)
+2.)  Drag this Project inside your webserver directory (hosted __OR__ local).
 
-3.)  Open Project inside your browser
+3.)  Open Project inside your browser.
 
-4.)  Select your database-type
+4.)  Select your database-type.
 
 5.)  Create your first Employee/Admin User
     * Necessary to add...
