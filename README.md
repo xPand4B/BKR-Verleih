@@ -13,10 +13,15 @@ __©2018 - Made by Eric Heinzl__
 4.)  Select your database-type.
 
 5.)  Create your first Employee/Admin User
+    
     * Necessary to add...
+    
         * movies
+    
         * customer
+    
         * employee/admin
+    
         * rental
 
 6.)  Have fun __(^-^)/__
