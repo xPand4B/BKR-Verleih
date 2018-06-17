@@ -6,6 +6,7 @@ $config = [
     ],
 
     'Website' => [
+         // Live-Server domain (used for HTTPS redirecting)
         'WEB_DOMAIN' => '',
         'WEB_TITLE'  => ''
     ],
