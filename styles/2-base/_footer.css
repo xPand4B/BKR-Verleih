@@ -1,0 +1,28 @@
+footer{
+    margin-top: 100px;
+    background-color: #424242;
+    color: #BDBDBD;
+    padding: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #BDBDBD;
+    margin: 2px;
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+
+footer ul{
+    list-style: none;
+}
+footer li{
+    width: auto;
+    display: inline-block;
+    margin: 8px;
+}

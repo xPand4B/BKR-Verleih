@@ -1,0 +1,202 @@
+/* Show all Movies */
+.itemPoster{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+.itemView{
+    width: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.itemView:hover .itemTitel:not(:hover) {
+    text-decoration: underline;
+    text-decoration-color: #F44336;
+}
+.itemView:hover{ cursor: pointer; }
+.itemIMG, .itemIMG img{
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+}
+.itemTitel{ font-weight: 600; }
+.itemYear{
+    color: #9E9E9E;
+    font-style: italic;
+}
+
+.itemView button{
+    background-color: rgba(0,0,0,0);
+    padding: 5px 10px;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    transition: all .3s;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.itemView button:hover{
+    background-color: #4CAF50;
+    cursor: pointer;
+    color: white;
+}
+/* end Show all Movies */
+
+
+
+/* Show Movie Details */
+/* Overall Movie Details*/
+.movieContent{
+    display: flex;
+    justify-content: space-around;
+}
+/* end Overall */
+
+/* Movie Cover Image */
+.movieIMG, .latest-movies img{ box-shadow: 0px 0px 20px black; }
+.movieIMG, .movieIMG img{
+    width: var(--coverWidth);
+    height: var(--coverHeight);
+}
+/* end Movie Cover Image */
+
+
+/* Movie Details */
+.movieDetails{
+    margin-left: 5vw;
+    font-size: 15px;
+}
+    .movieTitel{
+        text-align: center;
+        font-size: 30px;
+    }
+    .movieTitel h1{ display: inline-block; }
+    .releaseYear{
+        color: #9E9E9E;
+        font-size: 25px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+
+    .actions{ margin: 30px auto 0; }
+    .actions ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+    }
+    .actions ul li{ padding: 20px; }
+
+    #playTrailer:hover{
+        color: blue;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    #trailerFrame{
+        padding: 20px 0 0;
+        text-align: center;
+    }
+    #trailerFrame button, .backButton button{
+        margin: 20px;
+        padding: 3px 20px;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: rgba(0,0,0,0);
+        border: 2px solid #F44336;
+        border-radius: 20px;
+        transition: all .3s;
+    }
+    #trailerFrame button:hover, .backButton button:hover{
+        background-color: #F44336;
+        color: white;
+        cursor: pointer;
+    }
+    .trailer{
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+    }
+    .trailer iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .movieInfo{ margin-top: 0px; }
+    .movieInfo h3{ margin-bottom: 10px; }
+        .movieDescription, .movieDirector, .movieActor{ margin: 30px 0; }
+/* end Show Movie Details */
+
+
+
+/* Show Latest Movies */
+.latest-movies {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+.latest-movies tr{
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+}
+.latest-movies tr:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.latest-movies td{
+    width: 33%;
+    padding: 10px;
+}
+.latest-movies img{
+    width: var(--latestCoverWidth);
+    height: var(--latestCoverHeight);
+}
+/* end Show Latest Movies */
+
+
+
+/* Tablet View */
+@media only screen and (max-width: 1100px) {
+    .actions ul{
+        flex-direction: column;
+        text-align: center;
+    }
+}/* end Tablet View */
+
+
+/* Mobile View */
+@media only screen and (max-width: 830px) {
+    .movieContent{
+        display: block;
+        text-align: center;
+    }
+    .movieDetails{
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .movieIMG, .movieIMG img{
+        width: 150px;
+        height: 225px;
+    }
+    .movieIMG{ margin: auto; }
+
+    .actions ul li{ padding: 10px 0; }
+}/* end Mobile View */
+
+
+/* Mobile View */
+@media only screen and (max-width: 900px) {
+    .itemView{ width: 33%; }
+}/* end Mobile View */
+
+
+/* Small Mobile View */
+@media only screen and (max-width: 450px) {
+    .itemView{ width: 50%; }
+}/* end Small Mobile View */

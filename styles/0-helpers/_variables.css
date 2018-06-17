@@ -1,0 +1,19 @@
+:root{
+    /* Base Styles */
+    --bannerHeight: 35vh;
+    --bannerH1: 15vh;
+    --bannerHeightMobile: 25vh;
+    --bannerH1Mobile: 10vh;
+    --mainBackColor: #E0E0E0;
+
+
+    /* Help Icon Transition */
+    --transitionTime: .3s;
+
+    /* Movie Cover Image */
+    --coverWidth: 200px;
+    --coverHeight: 300px;
+    --latestCoverWidth: 80px;
+    --latestCoverHeight: 120px;
+
+}

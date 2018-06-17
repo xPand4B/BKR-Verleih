@@ -1,0 +1,14 @@
+.form-input input, .form-input textarea, .form-input select{
+    width: calc(100% - 20px);
+    padding: 8px;
+    font-size: 15px;
+    outline: none;
+}
+input[type='checkbox']:hover{ cursor: pointer;}
+.form-input select{ width: 100%; }
+.form-input textarea{
+    max-width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    min-height: 20px;
+    max-height: 400px;
+}

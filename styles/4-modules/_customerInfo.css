@@ -1,0 +1,7 @@
+.customerInfo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.customerInfo ul{ list-style-type: none; }
+.customerInfo li{ padding: 5px 0;}
+#customerName{ text-decoration: underline; }

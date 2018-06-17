@@ -1,0 +1,26 @@
+/* Banner Section */
+.bannerHome, .banner{
+    background: url('../../img/bannerHome.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: var(--bannerHeight);
+    position: fixed;
+    z-index: -2;
+}
+.bannerHome h1, .banner h1{
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: var(--bannerH1);
+    font-size: 50px;
+    color: #fff;
+    z-index: -1;
+}
+/* end Banner Section */
+
+/* Mobile View */
+@media only screen and (max-width: 830px) {
+    .bannerHome, .banner{ height: var(--bannerHeightMobile); }
+    .bannerHome h1, .banner h1{ padding-top: var(--bannerH1Mobile); }
+}/* end Mobile View */

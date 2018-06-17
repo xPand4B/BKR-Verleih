@@ -1,0 +1,68 @@
+.openModal, #logout{
+    font-size: 23px;
+    line-height: 25px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: 3px 20px;
+    transition: all .3s;
+}
+.openModal:hover, #logout:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+#logout{ font-size: 20px; }
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content{
+    -webkit-animation: animatezoom 0.5s;
+    animation: animatezoom 0.5s;
+    width: 30vw;
+    height: auto;
+    background-color: #f1f1f1;
+    border-radius: 30px;
+    margin: 10vh auto;
+    padding: 20px;
+    transition: all .4s;
+    box-shadow: 0px 5px 50px black;
+}
+
+.modal-content label{
+    color: #000;
+    font-size: 20px;
+}
+.modal-content input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+@-webkit-keyframes animatezoom{
+    from{ -webkit-transform: scale(0); }
+    to{ -webkit-transform: scale(1); }
+}
+@keyframes animatezoom {
+    from{ transform: scale(0);}
+    to{ transform: scale(1);}
+}
+
+  /* Mobile View */
+@media only screen and (max-width: 830px) {
+    .modal-content{
+        width: 80vw;
+        margin-top: 5vh;
+    }
+}/* end Mobile View */

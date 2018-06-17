@@ -1,0 +1,52 @@
+#sql-table{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    /* overflow-y: scroll; */
+    /* border: 1px solid black; */
+}
+
+#sql-table td, #sql-table th{
+    border: 1px solid #424242;
+    padding: 8px;
+    text-align: center;
+}
+#sql-table th{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    padding: 12px 0;
+    background-color: #424242;
+    color: white;
+}
+#sql-table th:first-child{ border-left: 1px solid #424242; }
+#sql-table th:last-child { border-right: 1px solid #424242; }
+#sql-table tr:nth-child(even){ background-color: #E0E0E0; }
+#sql-table tr:hover{ background-color: #BDBDBD; }
+
+.warningDate{
+    background-color: #FF9800;
+    color: white;
+}
+.emptyDate{
+    background-color: #F44336;
+    color: white;
+}
+.setDate{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#empty-query{
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* Mobile View */
+@media only screen and (max-width: 900px) {
+    #sql-table td, #sql-table th{
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    #sql-table td{ padding: 10px 0;}
+}/* end Mobile View */

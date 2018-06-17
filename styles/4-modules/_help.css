@@ -1,0 +1,28 @@
+.help{
+    display: inline-block;
+    position: relative;
+}
+.help a{
+    text-decoration: none;
+}
+.help .tooltiptext{
+    opacity: 0;
+    -webkit-transition: opacity var(--transitionTime);
+    -moz-transition: opacity var(--transitionTime);
+    -o-transition: opacity var(--transitionTime);
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+
+}
+.help:hover .tooltiptext{
+    opacity: 1;
+}
