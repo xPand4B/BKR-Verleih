@@ -62,6 +62,7 @@ Powerd with
 dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
 
 * 10.06.2018
+
 | File Extension         | Lines       |
 | ---------------------- |:----------- |
 | .html                  |   55        |
