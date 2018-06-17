@@ -93,7 +93,7 @@
 
     ` /scripts/php/login/login.php `
 
-## [28.05.2018]
+## [28.05.2018] ##
 * Created Partial-includes to find things easier
 
     ` /app/partials/* `
@@ -108,7 +108,7 @@
 
     ` /app/includes/verleih.php `
 
-## [24.05.2018]
+## [24.05.2018] ##
 * Added JS Script for selecting all checkboxes
 
     ` /scripts/javascript/checkbox.selectAll.js `
@@ -121,13 +121,13 @@
 
     ` /scripts/php/delete/delete.customer.php `
 
-* Created 'Verleih abschließen' script
+* Created __'Verleih abschließen'__ script
 
     ` /scripts/php/add/add.verleihEnd.php `
 
     ` /app/includes/verleih.php `
 
-* Added 'frist' to DB table 'typ'
+* Added __'frist'__ to DB table __'typ'__
 
 * Added Link from __'Verleih'__ to __'Kunden'__ __(Onclick Row)__
 
@@ -200,48 +200,3 @@
     ` /app/core/select.database.php `
 
 ## [20.05.2018] ##
-* Category, Actor and Director collapsible
-
-    ` /app/includes/filme.php `
-
-    ` /scripts/javascript/collapsible.js `
-
-* Added Imprint Page, Links and Access
-
-    ` /app/includes/impressum.php `
-
-    ` /app/core/footer.html `
-
-    ` /scripts/php/Page.php `
-
-    ` /scripts/php/Topnav.php `
-
-* Added Privacy Policy Page, Links and Access
-
-    ` /app/includes/datenschutz.php `
-
-    ` /app/core/footer.html `
-
-    ` /scripts/php/Page.php `
-
-    ` /scripts/php/Topnav.php `
-
-* Improved __'backLink'__ for php scripts __(function BackLink)__
-
-    ` /scripts/php/login/login.php `
-
-    ` /scripts/php/add/add.kunden.php `
-
-    ` /scripts/php/add/add.mitarbeiter.php `
-
-    ` /scripts/php/add/add.movies.php `
-
-    ` /scripts/php/add/add.verleihStart.php `
-
-* Improved comments for php objects
-
-    ` /scripts/php/Database.php `
-
-    ` /scripts/php/Page.php `
-
-    ` /scripts/php/Topnav.php `
