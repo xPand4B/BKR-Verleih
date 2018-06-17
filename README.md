@@ -14,7 +14,6 @@ __©2018 - Made by Eric Heinzl__
 
 5.)  Create your first Employee/Admin User
     * Necessary to add...
-    
         * movies
         * customer
         * employee/admin
