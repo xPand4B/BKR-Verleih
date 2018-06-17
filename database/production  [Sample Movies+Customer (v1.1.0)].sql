@@ -224,8 +224,6 @@ CREATE TABLE `kunden` (
 --
 
 INSERT INTO `kunden` (`kID`, `name`, `vorname`, `geburtsdatum`, `fk_plzID`, `strasse`, `email`, `password`) VALUES
-(1, 'Corapci', 'Vural', '1950-01-01', 1, 'Kemperstrasse 3', 'noob@corapci.org', '$2y$10$nuQO.S3sF9WwrceHbr.YL.yAKqVkqvq89z9PG6dG8uIzjZhCztQzm'),
-(2, 'Holzhaus', 'Henning', '1938-03-01', 1, 'Vitrexweg 5', 'henholthaus@gmail.com', '$2y$10$UYGZ7srs6VI4JmuzTdrBOu40zOQ9fmdoFTPnYHt71eswt44kNumQ6'),
 (3, 'Yoghurtbecher', 'Sven', '1999-01-01', 2, 'Becherweg 1337', 'yoghurt@becher.de', '$2y$10$l/rCZzdc/u3CzBFdpNGej.ti8o1vG3q0Wp.2xiPOkJC4G2e.9fWuO'),
 (4, 'Krebs', 'Eugene', '1980-09-02', 3, 'Krabenallee 20', 'krabs@krossekrabbe.bk', '$2y$10$lXALN9Zh//yptdUkrm9FkOsSKCACf272xR/V8HigFHvzNud1ih5LS'),
 (5, 'Yagami', 'Light', '1985-07-26', 4, 'Deathstreet 6', 'light@yagami.jp', '$2y$10$qgRHwE3sdajASEn9f.CFV..jBlQ/CMsDdazZcNQnq7LnJdURxh3H6'),
@@ -276,7 +274,7 @@ CREATE TABLE `ort` (
 --
 
 INSERT INTO `ort` (`ID`, `plz`, `stadt`) VALUES
-(1, '48465', 'Schuettorf'),
+(1, '45678', 'Idiotendorf'),
 (2, '01139', 'Dresden'),
 (3, '12345', 'Bikini-Bottom'),
 (4, '00000', 'Kanto'),
