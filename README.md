@@ -2,18 +2,25 @@ __©2018 - Made by Eric Heinzl__
 - **Github Repository**: <https://github.com/xPand4B/BKR-Verleih>
 
 ## How To Start ##
-0.) Read __'CHANGE-LOG'__ if you already have a version of this project
-1.) Check your Configuration Settings inside `./config.php`
-2.) Drag this Project inside your webserver directory (hosted __OR__ local)
-3.) Open Project inside your browser
-4.) Select your database-type
-5.) Create your first Employee/Admin User
+0.)  Read __'CHANGE-LOG'__ if you already have a version of this project
+
+1.)  Check your Configuration Settings inside `./config.php`
+
+2.)  Drag this Project inside your webserver directory (hosted __OR__ local)
+
+3.)  Open Project inside your browser
+
+4.)  Select your database-type
+
+5.)  Create your first Employee/Admin User
+
     * Necessary to add...
         * movies
         * customer
         * employee/admin
         * rental
-6.) Have fun __(^-^)/__
+
+6.)  Have fun __(^-^)/__
 
 
 ## Features ##
