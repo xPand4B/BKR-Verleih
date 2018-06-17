@@ -1,7 +1,7 @@
 # ©2018 - Made by Eric Heinzl
 
 
-HOW TO START
+How to Start
 ============
 0. Read 'CHANGE-LOG' if you already have a version of this project
 1. Check your Configuration Settings ( ./config.php )
@@ -16,7 +16,7 @@ HOW TO START
         * rental
 6. Have fun
 
-FEATURES
+Features
 ========
 * force HTTPS for live server
 * Easy to edit Configuration ( /config.php )
@@ -57,9 +57,11 @@ Powerd with
 | Parsley Validation           | http://parsleyjs.org                                        |
 
 
-## OVERALL CODE-LINES ##
+## Overall Code-lines (10.06.2018)
 * PowerShell
+```
 dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
+```
 
 * 10.06.2018
 
