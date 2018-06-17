@@ -1,11 +1,11 @@
-# ©2018 - Made by Eric Heinzl
+__©2018 - Made by Eric Heinzl__
 
 
 # How To Start
-============
 0.  Read __'CHANGE-LOG'__ if you already have a version of this project
-1.  Check your Configuration Settings ( ./config.php )
-2.  Drag this Project inside your webserver (hosted OR local)
+1.  Check your Configuration Settings /
+    * ./config.php
+2.  Drag this Project inside your webserver directory (hosted OR local)
 3.  Open Project inside your browser
 4.  Select your database-type
 5.  Create your first Employee/Admin User
@@ -18,7 +18,6 @@
 
 
 # Features
-========
 * force HTTPS for live server
 * Easy to edit Configuration ( /config.php )
 * Self-import for database
@@ -34,7 +33,6 @@
 
 
 # System Recommandations
-======================
 | Name                         | Used Version    | Source                                 |
 | ---------------------------- |:--------------- |:-------------------------------------- |
 | PHPMyAdmin                   | 4.8.0.1         | https://www.phpmyadmin.net/downloads/  |
@@ -43,7 +41,6 @@
 
 
 # Powerd with
-============
 | Name                         | Source                                                      |
 | ---------------------------- |:----------------------------------------------------------- |
 | JQuery                       | https://jquery.com                                          |
