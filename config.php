@@ -7,7 +7,7 @@ $config = [
 
     'Website' => [
         'WEB_DOMAIN' => '',
-        'WEB_TITLE'  => 'BKR-Verleih'
+        'WEB_TITLE'  => ''
     ],
 
     // If you are switching the mode, one has to be 'true', the other one 'false'
@@ -17,10 +17,10 @@ $config = [
     ],
 
     'MySQL_Development' => [
-        'DB_DEV_HOST'      => 'localhost',
-        'DB_DEV_USERNAME'  => 'root',
+        'DB_DEV_HOST'      => '',
+        'DB_DEV_USERNAME'  => '',
         'DB_DEV_PASSWORD'  => '',
-        'DB_DEV_DATABASE'  => 'hein-haus-bkr-verleih'
+        'DB_DEV_DATABASE'  => ''
     ],
 
     'MySQL_Production' => [
