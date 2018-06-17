@@ -2,7 +2,7 @@ __©2018 - Made by Eric Heinzl__
 - **Github Repository**: <https://github.com/xPand4B/BKR-Verleih>
 
 ## How To Start ##
-0.)  Read __'CHANGE-LOG'__ if you already have a version of this project
+0.)  Read [__'CHANGE-LOG'__](https://github.com/xPand4B/BKR-Verleih/blob/master/CHANGE-LOG.md) if you already have a version of this project
 
 1.)  Check your Configuration Settings inside `./config.php`
 
