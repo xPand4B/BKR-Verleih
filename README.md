@@ -1,10 +1,9 @@
 __©2018 - Made by Eric Heinzl__
 - **Github Repository**: <https://github.com/xPand4B/BKR-Verleih>
 
-# How To Start
+## How To Start ##
 0.  Read __'CHANGE-LOG'__ if you already have a version of this project
-1.  Check your Configuration Settings
-    * ./config.php
+1.  Check your Configuration Settings inside `./config.php`
 2.  Drag this Project inside your webserver directory (hosted __OR__ local)
 3.  Open Project inside your browser
 4.  Select your database-type
@@ -17,7 +16,7 @@ __©2018 - Made by Eric Heinzl__
 6.  Have fun __(^-^)/__
 
 
-# Features
+## Features ##
 * force HTTPS for live server
 * Easy to edit Configuration
 * Self-import for database
@@ -27,12 +26,12 @@ __©2018 - Made by Eric Heinzl__
     * Reload content section only
         * Pages are mostly loaded from partials
     * 404-Not-Found Error Page
-    * 403-Access-forbidden ( ex. <URl>/img )
+    * 403-Access-forbidden
     * Site Access Control
 
 
 
-# System Recommandations
+## System Recommandations ##
 | Name                         | Used Version    | Source                                 |
 | ---------------------------- |:--------------- |:-------------------------------------- |
 | PHPMyAdmin                   | 4.8.0.1         | https://www.phpmyadmin.net/downloads/  |
@@ -40,7 +39,7 @@ __©2018 - Made by Eric Heinzl__
 
 
 
-# Powerd with
+## Powerd with ##
 | Name                         | Source                                                      |
 | ---------------------------- |:----------------------------------------------------------- |
 | JQuery                       | https://jquery.com                                          |
@@ -50,11 +49,9 @@ __©2018 - Made by Eric Heinzl__
 | Parsley Validation           | http://parsleyjs.org                                        |
 
 
-# Overall Code-lines (10.06.2018)
+## Overall Code-lines (10.06.2018) ##
 PowerShell command:
-```
-dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
-```
+`dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line`
 
 
 | File Extension         | Lines       |
