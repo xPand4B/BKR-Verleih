@@ -6,6 +6,7 @@ $config = [
     ],
 
     'Website' => [
+        // Live-Server domain (used for HTTPS redirecting)
         'WEB_DOMAIN' => 'xpand4b',
         'WEB_TITLE'  => 'BKR-Verleih'
     ],
@@ -20,7 +21,7 @@ $config = [
         'DB_DEV_HOST'      => 'localhost',
         'DB_DEV_USERNAME'  => 'root',
         'DB_DEV_PASSWORD'  => '',
-        'DB_DEV_DATABASE'  => 'hein-haus-bkr-verleih'
+        'DB_DEV_DATABASE'  => 'bkr_rental'
     ],
 
     'MySQL_Production' => [
