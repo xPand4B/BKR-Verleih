@@ -21,7 +21,7 @@
 
             <br><hr><br>
             <h5>&copy;2018 made by</h5>
-            <h5>Eric Heinzl | Henning Holthaus</h5>
+            <h5>Eric Heinzl</h5>
         </div>
     </body>
 </html>
