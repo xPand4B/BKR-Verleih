@@ -3,18 +3,18 @@
 
 HOW TO START
 ============
-0. Read __'CHANGE-LOG'__ if you already have a version of this project
-1. Check your Configuration Settings ( ./config.php )
-2. Drag this Project inside your webserver (hosted OR local)
-3. Open Project inside your browser
-4. Select your database-type
-5. Create your first Employee/Admin User
+0.  Read __'CHANGE-LOG'__ if you already have a version of this project
+1.  Check your Configuration Settings ( ./config.php )
+2.  Drag this Project inside your webserver (hosted OR local)
+3.  Open Project inside your browser
+4.  Select your database-type
+5.  Create your first Employee/Admin User
     * Necessary to add...
         * movies
         * customer
         * employee/admin
         * rental
-6. Have fun
+6.  Have fun __\(^-^)/__
 
 FEATURES
 ========
@@ -57,11 +57,12 @@ Powerd with
 | Parsley Validation           | http://parsleyjs.org                                        |
 
 
-## Overall Code-lines (10.06.2018)
+# Overall Code-lines (10.06.2018)
 PowerShell command:
 ```
 dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
 ```
+
 
 | File Extension         | Lines       |
 | ---------------------- |:----------- |
@@ -70,6 +71,7 @@ dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
 | .css                   |  867        |
 | .js                    |   99        |
 | .sql                   | 3063        |
+
 
 | Total                  | 6677        |
 | ---------------------- |:----------- |
