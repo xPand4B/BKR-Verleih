@@ -6,26 +6,12 @@
     <h2>Angaben gem&auml;&szlig; &sect; 5 TMG:</h2>
         <p>
             Eric Heinzl<br>
-            Samernsche Straße 1<br>
-            48465 Sch&uuml;ttorf
         </p>
-        <br>
-        <p>
-            Henning Holthaus<br>
-            Zum Wietkamp 2<br>
-            48465 Sch&uuml;ttorf
-        </p>
-
     <br>
     <h2>Kontakt:</h2><br>
         <p>
             <h4>Eric Heinzl:</h4>
-            Telefon: +49 (0 59 23) 99 43 90 <br>
             E-Mail: eric.heinzl@gmail.com <br>
-            <br>
-            <h4>Henning Holthaus:</h4>
-            Telefon: +49 (0 59 23) 99 43 49 <br>
-            E-Mail: henholthaus@gmail.com <br>
         </p>
 
     <br>
