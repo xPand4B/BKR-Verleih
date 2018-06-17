@@ -61,11 +61,11 @@ Powerd with
 * PowerShell
 dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
 
-[10.06.2018]
-.html   >>    55
-.php    >>  2593
-.css    >>   867
-.js     >>    99
-.sql    >>  3063
+* 10.06.2018
+html   >>    55
+php    >>  2593
+css    >>   867
+js     >>    99
+sql    >>  3063
 ----------------
 Total   >>  6677
