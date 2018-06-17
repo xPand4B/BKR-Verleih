@@ -56,7 +56,7 @@ __©2018 - Made by Eric Heinzl__
 
 
 ## Changelog ##
-The changelog is located inside the `CHANGE-LOG.md` file.
+The changelog is located inside the [CHANGE-LOG.md](https://github.com/xPand4B/BKR-Verleih/blob/master/CHANGE-LOG.md) file.
 
 
 ## Overall Code-lines (10.06.2018) ##
