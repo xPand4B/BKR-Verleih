@@ -1,9 +1,9 @@
 # ©2018 - Made by Eric Heinzl
 
 
-How to Start
+HOW TO START
 ============
-0. Read 'CHANGE-LOG' if you already have a version of this project
+0. Read __'CHANGE-LOG'__ if you already have a version of this project
 1. Check your Configuration Settings ( ./config.php )
 2. Drag this Project inside your webserver (hosted OR local)
 3. Open Project inside your browser
@@ -16,7 +16,7 @@ How to Start
         * rental
 6. Have fun
 
-Features
+FEATURES
 ========
 * force HTTPS for live server
 * Easy to edit Configuration ( /config.php )
@@ -58,12 +58,10 @@ Powerd with
 
 
 ## Overall Code-lines (10.06.2018)
-* PowerShell
+PowerShell command:
 ```
 dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
 ```
-
-* 10.06.2018
 
 | File Extension         | Lines       |
 | ---------------------- |:----------- |
