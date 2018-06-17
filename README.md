@@ -13,7 +13,6 @@ __©2018 - Made by Eric Heinzl__
 4.)  Select your database-type
 
 5.)  Create your first Employee/Admin User
-
     * Necessary to add...
         * movies
         * customer
@@ -56,11 +55,11 @@ __©2018 - Made by Eric Heinzl__
 | Parsley Validation           | http://parsleyjs.org                                        |
 
 
+## Changelog ##
+The changelog is located inside the `CHANGE-LOG.md` file.
+
+
 ## Overall Code-lines (10.06.2018) ##
-PowerShell command:
-`dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line`
-
-
 | File Extension         | Lines       |
 | ---------------------- |:----------- |
 | .html                  |   55        |
@@ -71,3 +70,7 @@ PowerShell command:
 
 | Total                  | 6677        |
 | ---------------------- |:----------- |
+
+__PowerShell command:__
+
+`dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line`
