@@ -1,5 +1,6 @@
 ## [10.06.2018] ##
 * Improved CSS file structure
+
     [ ./app/core/head.html ]
     [ ./styles/* ]
 * Improved environment variable loading
