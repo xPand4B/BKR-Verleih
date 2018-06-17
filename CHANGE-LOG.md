@@ -1,20 +1,20 @@
 ## [10.06.2018] ##
 * Improved CSS file structure
 
-`./app/core/head.html`
+    `./app/core/head.html`
 
-`./styles/*`
+    `./styles/*`
 
 * Improved environment variable loading
 
-`./app/autoload.php `
+    `./app/autoload.php`
 
-## [02.06.2018]
+## [02.06.2018] ##
 * Added Development/Production Database connection, in order to upload the project to a hoster
 
-`/config.php`
+    `/config.php`
 
-`/scripts/php/Database.php`
+    `/scripts/php/Database.php`
 
 * Improved Database check, e.x. exist all tables?
 
@@ -38,38 +38,44 @@
 
     `/app/init.php`
 
-## [31.05.2018]
-    - Added delete scripts
-        - Customer
-            [ /app/partials/kunden/show.all.php ]
-            [ /scripts/php/delete/delete.customer.php ]
-        - Movies (depending on serveral things, e.x. movie still in use?)
-            [ /app/includes/filme.php ]
-            [ /app/partials/filme/delete.php ]
-            [ /scripts/php/delete/delete.movie.php ]
+## [31.05.2018] ##
+* Added delete scripts
+* Customer
+    
+    ` /app/partials/kunden/show.all.php`
+    
+    ` /scripts/php/delete/delete.customer.php`
 
-## [30.05.2018]
-    - Created config file
-        [ /app/config/default.php ]
-    - Depending on config file...
-        - Database name         [ /database/*.sql ]
-        - Database connection   [ /scripts/php/Database.php ]
-        - Version control       [ /app/init.php ]
-        - Website Title
-            [ /app/core/first.start.php ]
-            [ /app/core/select.database.php ]
-            [ /app/core/update.database.php ]
-            [ /scripts/php/Page.php ]
-    - Read config file and save settings as environment variables
-        [ /app/init.php ]
-        [ /app/autoload.php ]
-    - Added autoload to scripts, in order to access environment variables
-        [ /scripts/php/add/add.kunden.php ]
-        [ /scripts/php/add/add.mitarbeiter.php ]
-        [ /scripts/php/add/add.movies.php ]
-        [ /scripts/php/add/add.verleihEnd.php ]
-        [ /scripts/php/add/add.verleihStart.php ]
-        [ /scripts/php/login/login.php ]
+* Movies (depending on serveral things, e.x. movie still in use?)
+    
+    ` /app/includes/filme.php`
+    
+    ` /app/partials/filme/delete.php`
+    
+    ` /scripts/php/delete/delete.movie.php`
+
+## [30.05.2018] ##
+* Created config file
+    ` /app/config/default.php`
+* Depending on config file...
+    * Database name         `/database/*.sql`
+    * Database connection   `/scripts/php/Database.php`
+    * Version control       `/app/init.php`
+    * Website Title
+        [ /app/core/first.start.php ]
+        [ /app/core/select.database.php ]
+        [ /app/core/update.database.php ]
+        [ /scripts/php/Page.php ]
+- Read config file and save settings as environment variables
+    [ /app/init.php ]
+    [ /app/autoload.php ]
+- Added autoload to scripts, in order to access environment variables
+    [ /scripts/php/add/add.kunden.php ]
+    [ /scripts/php/add/add.mitarbeiter.php ]
+    [ /scripts/php/add/add.movies.php ]
+    [ /scripts/php/add/add.verleihEnd.php ]
+    [ /scripts/php/add/add.verleihStart.php ]
+    [ /scripts/php/login/login.php ]
 
 ## [28.05.2018]
     - Created Partial-includes to find things easier
