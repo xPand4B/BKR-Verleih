@@ -1,7 +1,7 @@
 # ©2018 - Made by Eric Heinzl
 
 
-HOW TO START
+# How To Start
 ============
 0.  Read __'CHANGE-LOG'__ if you already have a version of this project
 1.  Check your Configuration Settings ( ./config.php )
@@ -14,30 +14,26 @@ HOW TO START
         * customer
         * employee/admin
         * rental
-6.  Have fun __\(^-^)/__
+6.  Have fun __(^-^)/__
 
-FEATURES
+
+# Features
 ========
 * force HTTPS for live server
 * Easy to edit Configuration ( /config.php )
 * Self-import for database
 * Database Version control
-    [ /app/init.php ]
-    [ /app/config/version.php ]
-    [ /app/core/update.database.php ]
-* Responsive Design ( /styles/* )
+* Responsive Design
 * Dynamic Page loading
-    * Reload content section only ( /scripts/php/Page.php )
-        * Pages are mostly loaded from partials ( /app/partials/* )
-    * 404-Not-Found Error Page ( /app/error/* )
+    * Reload content section only
+        * Pages are mostly loaded from partials
+    * 404-Not-Found Error Page
     * 403-Access-forbidden ( ex. <URl>/img )
-    * Site Access Control (check if logged in)
-* Complete Imprint
-* Complete Privacy Policy
+    * Site Access Control
 
 
 
-System Recommandations
+# System Recommandations
 ======================
 | Name                         | Used Version    | Source                                 |
 | ---------------------------- |:--------------- |:-------------------------------------- |
@@ -46,7 +42,7 @@ System Recommandations
 
 
 
-Powerd with
+# Powerd with
 ============
 | Name                         | Source                                                      |
 | ---------------------------- |:----------------------------------------------------------- |
@@ -71,7 +67,6 @@ dir -Recurse *.<EXTENSION> | Get-Content | Measure-Object -Line
 | .css                   |  867        |
 | .js                    |   99        |
 | .sql                   | 3063        |
-
 
 | Total                  | 6677        |
 | ---------------------- |:----------- |
