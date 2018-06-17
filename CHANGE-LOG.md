@@ -8,18 +8,29 @@
 
 ## [02.06.2018]
 * Added Development/Production Database connection, in order to upload the project to a hoster
+
     `/config.php`
     `/scripts/php/Database.php`
+
 * Improved Database check, e.x. exist all tables?
+
     `/app/init.php`
     `/app/core/missing.tables.php`
+
 * Improved environment variables loading
+
     `/app/autoload.php`
+
 * Added Development/Production Database files
+
     `/database/*.sql`
+
 * Improved database selection, only show database files for current mode (dev/live)
+
     `/app/core/select.database.php`
+
 * Added HTTPS force for production mode
+
     `/app/init.php`
 
 ## [31.05.2018]
